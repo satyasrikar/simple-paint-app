@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+body {
+    border: 20px solid black;
+}
+#meta {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: -1;
+    
+}
+#label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    
+}
+
+#fillLabel, #submit, #testHit {
+    border: solid 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+
+
+
+
+canvas{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    border: 10px solid black;
+   }
+
+
+
+
+

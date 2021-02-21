@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Paint App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="body">
+    <span id="label">SIMPLE PAINT APP</span>
+    <div id="metadata">
+            <p id="meta">(X, Y): <span id="x-value">-</span>,<span id="y-value">-</span></p>
+            <p id="meta">RADIUS: <span id="size">-</span>px</p>
+
+
+    </div>
+
+
+    <br>
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+    <div class="controls">
+        <p><label id="fillLabel">FILL COLOR:</label> <input id="fillColor" type="color"></p>
+        <button id="submit" value="submit" onclick="submit()" type="button">CHANGE COLOR</button>
+        <button id="testHit" value="testHit" onclick="testHit()" type="button">TEST HIT/MISS</button>
+    </div>
+
+
+
+    <!-- <div id="test" oncontextmenu="drawAttributes(red);">
+        <div id="colors">
+            
+            <button id="tab" value="green" type="button">GREEN</button>
+            <button id="tab" value="blue" type="button">BLUE</button>
+        </div>
+    </div> -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
